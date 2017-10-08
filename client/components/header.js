@@ -23,11 +23,11 @@ class Header extends Component {
       <Container className="header-img-container" fluid={true}>
         <Navbar className="nav-bar" light toggleable>
           <NavbarToggler className="toggler-color" right onClick={this.toggle} />
-          <NavbarBrand className="nav-brand" href="/"> Your Name </NavbarBrand>
+          <NavbarBrand className="nav-brand" href="/"> Subreddit Searcher </NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink className="link-nav" href="./#/home"> Link 1 </NavLink>
+                <NavLink className="link-nav" href="./#/home"> Portfolio </NavLink>
               </NavItem>
               <NavItem>
                 <NavLink className="link-nav" href="./#/web-development"> Link 2 </NavLink>
